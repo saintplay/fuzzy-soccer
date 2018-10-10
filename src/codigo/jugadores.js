@@ -193,7 +193,8 @@ export const jugadores = [
     },
   },
   {
-    nombre: 'Marco Verrati',
+    nombre: 'Marco Verratti',
+    foto: 'card-verratti.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 5,
@@ -212,6 +213,7 @@ export const jugadores = [
   },
   {
     nombre: 'Angel Di María',
+    foto: 'card-dimaria.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 5,
@@ -230,6 +232,7 @@ export const jugadores = [
   },
   {
     nombre: 'Lassana Diarra',
+    foto: 'card-diarra.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 7,
@@ -248,6 +251,7 @@ export const jugadores = [
   },
   {
     nombre: 'Julian Draxler',
+    foto: 'card-draxler.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 10,
@@ -266,6 +270,7 @@ export const jugadores = [
   },
   {
     nombre: 'Cristopher Nkunku',
+    foto: 'card-nkunku.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 9,
@@ -284,6 +289,7 @@ export const jugadores = [
   },
   {
     nombre: 'Adrien Rabiot',
+    foto: 'card-rabiot.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 8,
@@ -302,6 +308,7 @@ export const jugadores = [
   },
   {
     nombre: 'Antoine Bernede',
+    foto: 'card-bernede.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 6,
@@ -320,6 +327,7 @@ export const jugadores = [
   },
   {
     nombre: 'Yacine Adli',
+    foto: 'card-adli.png',
     posicion: posicionesIdentificadores.MEDIOCAMPISTA,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 5,

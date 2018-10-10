@@ -10,11 +10,11 @@ export default {
     valoresDePuntajes: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   }),
   computed: {
-    defensas() {
-      return jugadores.filter(jugador => jugador.posicion === posicionesIdentificadores.DEFENSA)
+    mediocampistas() {
+      return jugadores.filter(jugador => jugador.posicion === posicionesIdentificadores.MEDIOCAMPISTA)
     },
   },
-  name: 'fase-3',
+  name: 'fase-4',
 }
 </script>
 
@@ -22,7 +22,7 @@ export default {
   <v-container class="fase-container">
     <v-layout wrap>
       <v-flex xs12>
-        <h1 class="title text-xs-center">Fase 3: Evaluar a los Jugadores Defensas</h1>
+        <h1 class="title text-xs-center">Fase 4: Evaluar a los Jugadores Mediocampistas</h1>
       </v-flex>
       <v-flex xs12>
         <v-data-table
@@ -31,7 +31,7 @@ export default {
             { text: 'Jugador', align: 'center', sortable: false, class: 'jugador-th' },
             ...criterios.map(criterio => ({ text: criterio.nombre, sortable: false })),
           ]"
-          :items="defensas"
+          :items="mediocampistas"
           hide-actions>
             <template slot="items" slot-scope="{ item, index }">
               <td class="text-xs-center">
