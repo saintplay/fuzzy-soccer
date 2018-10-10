@@ -1,9 +1,5 @@
-import 'vuetify/dist/vuetify.min.css'
-
 import Vue from 'vue'
-import Vuetify from 'vuetify'
-
-Vue.use(Vuetify)
+import './plugins/vuetify'
 
 import App from './App.vue'
 

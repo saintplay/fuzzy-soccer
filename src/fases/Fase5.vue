@@ -22,7 +22,7 @@ export default {
   <v-container class="fase-container">
     <v-layout wrap>
       <v-flex xs12>
-        <h1 class="title text-xs-center">Fase 4: Evaluar a los Jugadores Delanteros</h1>
+        <h1 class="title text-xs-center">Fase 5: Evaluar a los Jugadores Delanteros</h1>
       </v-flex>
       <v-flex xs12>
         <v-data-table
