@@ -346,6 +346,7 @@ export const jugadores = [
   },
   {
     nombre: 'Kylian Mbappé',
+    foto: 'card-mbappe.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 10,
@@ -363,25 +364,8 @@ export const jugadores = [
     },
   },
   {
-    nombre: 'Kylian Mbappé',
-    posicion: posicionesIdentificadores.DELANTERO,
-    puntajes: {
-      [criteriosIdentificadores.SALTOS_CABECEAR]: 5,
-      [criteriosIdentificadores.TIROS]: 10,
-      [criteriosIdentificadores.PASES_CORTOS]: 5,
-      [criteriosIdentificadores.PASES_LARGOS]: 8,
-      [criteriosIdentificadores.CENTROS]: 8,
-      [criteriosIdentificadores.CONTROL_BALON]: 6,
-      [criteriosIdentificadores.DEFINICION]: 4,
-      [criteriosIdentificadores.VELOCIDAD]: 6,
-      [criteriosIdentificadores.CREATIVIDAD]: 9,
-      [criteriosIdentificadores.AMBIDIESTRO]: 9,
-      [criteriosIdentificadores.ALTURA]: 4,
-      [criteriosIdentificadores.RENDIMIENTO]: 4,
-    },
-  },
-  {
     nombre: 'Edinson Cavani',
+    foto: 'card-cavani.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 9,
@@ -400,6 +384,7 @@ export const jugadores = [
   },
   {
     nombre: 'Neymar Jr',
+    foto: 'card-neymar.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 6,
@@ -417,7 +402,8 @@ export const jugadores = [
     },
   },
   {
-    nombre: 'Eric-Maxim Choupo-Moting',
+    nombre: 'Eric-Maxim Choupot-Moting',
+    foto: 'card-choupot-moting.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 10,
@@ -436,6 +422,7 @@ export const jugadores = [
   },
   {
     nombre: 'Timothy Weah',
+    foto: 'card-weah.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 6,
@@ -454,6 +441,7 @@ export const jugadores = [
   },
   {
     nombre: 'Moussa Diaby',
+    foto: 'card-diaby.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 7,
@@ -471,7 +459,8 @@ export const jugadores = [
     },
   },
   {
-    nombre: 'Jessé',
+    nombre: 'Jesé',
+    foto: 'card-jese.png',
     posicion: posicionesIdentificadores.DELANTERO,
     puntajes: {
       [criteriosIdentificadores.SALTOS_CABECEAR]: 6,
