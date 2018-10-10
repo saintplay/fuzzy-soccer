@@ -1,28 +1,30 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
-</template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Fase1 from '@/fases/Fase1'
+import Fase2 from '@/fases/Fase2'
+import Fase3 from '@/fases/Fase3'
 
 export default {
-  name: "app",
   components: {
-    HelloWorld
-  }
-};
+    Fase1,
+    Fase2,
+    Fase3,
+  },
+  name: 'app',
+}
 </script>
 
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<template>
+  <v-app id="app">
+    <v-carousel height="100%" light :cycle="false" hide-delimiters>
+      <v-carousel-item>
+        <fase-1 />
+      </v-carousel-item>
+      <v-carousel-item>
+        <fase-2 />
+      </v-carousel-item>
+      <v-carousel-item>
+        <fase-3 />
+      </v-carousel-item>
+   </v-carousel>
+  </v-app>
+</template>
