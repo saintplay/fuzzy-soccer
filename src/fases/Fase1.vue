@@ -19,7 +19,7 @@ export default {
         <v-data-table
           class="elevation-1 mt-4"
           :headers="[
-            { text: 'Nombre', value: 'nombre', sortable: false },
+            { text: 'Nombre', sortable: false },
             { text: 'Descripción', value: 'descripcion', sortable: false },
           ]"
           :items="criterios"

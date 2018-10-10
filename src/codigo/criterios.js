@@ -15,7 +15,7 @@ export const criterios = [
   {
     id: 'TIROS',
     nombre: 'Tiros',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Capacidad de ejecutar correctamente tiros de pelota parada',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.IMPORTANTE,
@@ -25,7 +25,7 @@ export const criterios = [
   {
     id: 'PASES_CORTOS',
     nombre: 'Pases Cortos',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Habilidad para ejecutar buenos pases a cortas distancias',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.MUY_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.MUY_IMPORTANTE,
@@ -35,7 +35,7 @@ export const criterios = [
   {
     id: 'PASES_LARGOS',
     nombre: 'Pases Largos',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Habilidad para ejecutar buenos pases a largas distancias',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.MUY_IMPORTANTE,
@@ -45,7 +45,7 @@ export const criterios = [
   {
     id: 'CENTROS',
     nombre: 'Centros',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Habilidad para ejecutar buenos centros',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.IMPORTANTE,
@@ -55,7 +55,7 @@ export const criterios = [
   {
     id: 'CONTROL_BALON',
     nombre: 'Control del Balón',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Habilidad de tener buen control del balón, aplicar tecnicas como la bicicleta',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.MUY_IMPORTANTE,
@@ -65,7 +65,7 @@ export const criterios = [
   {
     id: 'DEFINICION',
     nombre: 'Definición',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Capacidad de convertir oportunidades de gol a gol',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.IMPORTANTE,
@@ -75,7 +75,7 @@ export const criterios = [
   {
     id: 'VELOCIDAD',
     nombre: 'Velocidad',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Velocidad del jugador durante todo el partido',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.IMPORTANTE,
@@ -85,7 +85,7 @@ export const criterios = [
   {
     id: 'CREATIVIDAD',
     nombre: 'Creatividad',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Capacidad de crear situaciones poco predecibles',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.MUY_IMPORTANTE,
@@ -95,7 +95,7 @@ export const criterios = [
   {
     id: 'AMBIDIESTRO',
     nombre: 'Ambidiestro',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Capacidad de dominar el balón con ambos pies',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
@@ -105,7 +105,7 @@ export const criterios = [
   {
     id: 'ALTURA',
     nombre: 'Altura',
-    descripcion: 'Capacidad de ',
+    descripcion: 'La altura del jugador',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.IMPORTANTE,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.NO_TAN_IMPORTANTE,
@@ -115,7 +115,7 @@ export const criterios = [
   {
     id: 'RENDIMIENTO',
     nombre: 'Rendimiento',
-    descripcion: 'Capacidad de ',
+    descripcion: 'Rendimiento del jugador durante todo el partido',
     pesos: {
       [posicionesIdentificadores.DEFENSA]: pesosIdentificadores.NORMAL,
       [posicionesIdentificadores.MEDIOCAMPISTA]: pesosIdentificadores.MUY_IMPORTANTE,

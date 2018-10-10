@@ -29,7 +29,7 @@ export default {
           class="elevation-1 mt-4"
           :headers="[
             { text: 'Jugador', align: 'center', sortable: false, class: 'jugador-th' },
-            ...criterios.map(criterio => ({ text: criterio.nombre, sortable: false })),
+            ...criterios.map(criterio => ({ text: criterio.nombre, sortable: false, class: 'criterio-th'  })),
           ]"
           :items="mediocampistas"
           hide-actions>
@@ -44,7 +44,7 @@ export default {
                 </div>
               </td>
               <td v-for="criterio in criterios" :key="criterio.id">
-                <v-select v-model="item.puntajes[criterio.id]" :items="valoresDePuntajes" />
+                <v-select v-model="item.puntajes[criterio.id]" :items="valoresDePuntajes" label="Puntuación" hide-details />
               </td>
             </template>
         </v-data-table>

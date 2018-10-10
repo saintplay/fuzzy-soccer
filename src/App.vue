@@ -69,6 +69,10 @@ export default {
   min-width: 150px;
 }
 
+.criterio-th {
+  min-width: 180px;
+}
+
 .step-container {
   z-index: 30;
 }

@@ -31,31 +31,37 @@ export default {
           :items="criterios"
           hide-actions>
             <template slot="items" slot-scope="{ item }">
-              <td> {{ item.nombre }} </td>
+              <td> <span class="caption"> {{ item.nombre }} </span> </td>
               <td>
                 <v-select
                   v-model="item.pesos[posicionesIdentificadores.DEFENSA]"
+                  class="my-4"
                   :items="pesos"
                   item-text="nombre"
                   item-value="id"
+                  hide-details
                   label="Peso"
                   solo />
               </td>
               <td>
                 <v-select
                   v-model="item.pesos[posicionesIdentificadores.MEDIOCAMPISTA]"
+                  class="my-4"
                   :items="pesos"
                   item-text="nombre"
                   item-value="id"
+                  hide-details
                   label="Peso"
                   solo />
               </td>
               <td>
                 <v-select
                   v-model="item.pesos[posicionesIdentificadores.DELANTERO]"
+                  class="my-4"
                   :items="pesos"
                   item-text="nombre"
                   item-value="id"
+                  hide-details
                   label="Peso"
                   solo />
               </td>
