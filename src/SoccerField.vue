@@ -68,10 +68,8 @@ $border: #b6d192;
   height: 450px;
   background: #333;
   position: absolute;
-  transform: perspective(600px) rotateX(45deg);
 
   @media screen and (max-width: 767px) {
-    transform: none;
     left: calc(-50vw + 50%);
   }
 
