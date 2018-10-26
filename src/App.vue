@@ -5,6 +5,7 @@ import Fase3 from '@/fases/Fase3'
 import Fase4 from '@/fases/Fase4'
 import Fase5 from '@/fases/Fase5'
 import Fase6 from '@/fases/Fase6'
+import Fase7 from '@/fases/Fase7'
 
 export default {
   data: () => ({
@@ -30,6 +31,7 @@ export default {
     Fase4,
     Fase5,
     Fase6,
+    Fase7,
   },
   name: 'app',
 }
@@ -50,6 +52,8 @@ export default {
         <v-stepper-step class="v-stepper__step--editable" :step="5" @click.native.stop="cambiarFase(5)"></v-stepper-step>
         <v-divider></v-divider>
         <v-stepper-step class="v-stepper__step--editable" :step="6" @click.native.stop="cambiarFase(6)"></v-stepper-step>
+        <v-divider></v-divider>
+        <v-stepper-step class="v-stepper__step--editable" :step="7" @click.native.stop="cambiarFase(7)"></v-stepper-step>
       </v-stepper-header>
     </v-stepper>
     
