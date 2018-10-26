@@ -4,6 +4,7 @@ import Fase2 from '@/fases/Fase2'
 import Fase3 from '@/fases/Fase3'
 import Fase4 from '@/fases/Fase4'
 import Fase5 from '@/fases/Fase5'
+import Fase6 from '@/fases/Fase6'
 
 export default {
   data: () => ({
@@ -28,6 +29,7 @@ export default {
     Fase3,
     Fase4,
     Fase5,
+    Fase6,
   },
   name: 'app',
 }
@@ -46,6 +48,8 @@ export default {
         <v-stepper-step class="v-stepper__step--editable" :step="4" @click.native.stop="cambiarFase(4)"></v-stepper-step>
         <v-divider></v-divider>
         <v-stepper-step class="v-stepper__step--editable" :step="5" @click.native.stop="cambiarFase(5)"></v-stepper-step>
+        <v-divider></v-divider>
+        <v-stepper-step class="v-stepper__step--editable" :step="6" @click.native.stop="cambiarFase(6)"></v-stepper-step>
       </v-stepper-header>
     </v-stepper>
     
@@ -67,6 +71,11 @@ export default {
 <style>
 .jugador-th {
   min-width: 150px;
+}
+
+.jugador-small-image {
+  width: 100px;
+  height: 100px;
 }
 
 .criterio-th {
